@@ -9,7 +9,7 @@ Script de détection et remédiation automatique pour la vulnérabilité **Copy 
 ## TL;DR — Commande unique
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/BastienWolf/copyfail-fix/main/copyfail-fix.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/BastienWolf/copyfail-fix/main/copyfix.sh | sudo bash
 ```
 
 > ⚠️ Toujours lire un script avant de l'exécuter avec `sudo`. Le contenu est visible dans ce dépôt.
@@ -28,14 +28,14 @@ curl -fsSL https://raw.githubusercontent.com/BastienWolf/copyfail-fix/main/copyf
 
 | Distribution | Gestionnaire | Statut patch |
 |---|---|---|
-| Ubuntu 20.04 / 22.04 / 24.04 | `apt` | ✅ Patché disponible |
+| Ubuntu 20.04 / 22.04 / 24.04 | `apt` | ✅ Patch disponible |
 | Ubuntu 26.04 (Resolute)+ | — | 🛡️ Non affecté |
-| Debian 11 / 12 | `apt` | ✅ Patché disponible |
-| RHEL / CentOS 8+ | `dnf` | ✅ Patché disponible |
-| AlmaLinux / Rocky Linux | `dnf` | ✅ Patché disponible |
-| Amazon Linux 2023 | `dnf` | ✅ Patché disponible |
-| SUSE 15 / openSUSE Leap | `zypper` | ✅ Patché disponible |
-| openSUSE Tumbleweed | `zypper` | ✅ Patché disponible (6.19.12) |
+| Debian 11 / 12 | `apt` | ✅ Patch disponible |
+| RHEL / CentOS 8+ | `dnf` | ✅ Patch disponible |
+| AlmaLinux / Rocky Linux | `dnf` | ✅ Patch disponible |
+| Amazon Linux 2023 | `dnf` | ✅ Patch disponible |
+| SUSE 15 / openSUSE Leap | `zypper` | ✅ Patch disponible |
+| openSUSE Tumbleweed | `zypper` | ✅ Patch disponible (6.19.12) |
 | Arch Linux | `pacman` | ✅ Rolling update |
 | Autre (générique) | — | ⚠️ Mitigation module uniquement |
 
